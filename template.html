@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>JS Bin</title>
+	<style>
+		.talk {
+			padding-left: 2px;
+			border: 1px solid black;
+			margin-bottom: 5px;
+			width:600px;
+			
+		}
+		
+		.message{
+			position: relative;
+			height: 100%;
+		}
+		.time {
+			position: absolute;
+			height: 100%;
+			min-height: 100%;
+			margin-left: 10px;
+			float: left;
+			width: 120px;
+			background-color: white;
+			padding-left: 5px;
+			opacity: 0.8;
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+		
+		.msg_body {
+			margin-left: 135px;
+			padding-left: 5px;
+			background-color: white;
+			opacity: 0.9;
+		}
+		.Yury {
+			background-color: red;
+		}
+		
+		.Julia {
+			background-color: blue;
+		}
+	</style>
+	<script src="jquery-2.1.4.js">
+	</script>
+	
+	<script>
+		$(function(){
+			return;
+			$(".Julia").children().addClass("Julia");
+			$(".Yury").children().addClass("Yury");
+			var y = $(".Julia")
+				.filter( function(i){
+				return !$(this).hasClass("message");
+				});
+			//}).removeClass("Julia");
+			//}).remove(attr);
+			var j = $(".Yury")
+				.filter( function(i,e){
+				return !$(this).hasClass("message");
+			});
+			
+			y.replaceWith(y.contents());
+			j.replaceWith(j.contents());
+			
+		});
+	</script>
+</head>
+
+<body>
+	<nav>
+		<input>
+	</nav>
+	<main>
+		<section class="talk">
+
+			<section class="message Julia" id="001">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Julia" id="002">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Julia" id="003">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Julia" id="004">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+
+			<section class="message Julia" id="009">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Julia" id="010">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Julia" id="011">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Julia" id="012">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla</section>
+			</section>
+
+
+			<section class="message Yury" id="005">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Yury" id="006">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Yury" id="007">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Yury" id="008">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+
+			<section class="message Yury" id="013">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Yury" id="014">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Yury" id="015">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Yury" id="016">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+
+		</section>
+		<section class="talk">
+
+			<section class="message Julia" id="001">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Julia" id="002">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Julia" id="003">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Julia" id="004">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+
+			<section class="message Julia" id="009">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Julia" id="010">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Julia" id="011">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Julia" id="012">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+
+
+			<section class="message Yury" id="005">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Yury" id="006">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Yury" id="007">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Yury" id="008">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+
+			<section class="message Yury" id="013">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Yury" id="014">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Yury" id="015">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+			<section class="message Yury" id="016">
+				<section class="time">12.10.2015 12:10</section>
+				<section class="msg_body">bla bla bla</section>
+			</section>
+
+		</section>
+	</main>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+		.message{
+			width:948px;
+			position: relative;
+			height: 100%;
+		}
+		.time {
+			height: 100%;
+			position: absolute;
+			margin-left: 10px;
+			padding-left: 5px;  
+			float: left;
+			width: 140px;
+			background-color: white;
+			opacity: 0.7;
+		}
+		
+		.talking {
+			border: 1px solid black;
+			margin-bottom: 5px
+		}
+		
+		.message_body {
+			margin-left: 155px;
+			padding-left: 5px;
+			background-color: white;
+			opacity: 0.9;
+		}
+		
+		.Yury {
+			background-color: green;
+		}
+		
+		.Julia {
+			background-color: blue;
+		}
+		
+		body {
+			text-align: center;
+			font: 12px/16px Verdana;
+			margin: 5px;
+		}
+		
+		hr {
+			border-color: #C3D1E0;
+		}
+		
+		.messages {
+			width: 950px;
+			margin: 0 auto;
+			text-align: left;
+		}
+		
+		.msg_item {
+			overflow: hidden
+		}
+		
+		.upic {
+			float: left
+		}
+		
+		.upic img {
+			vertical-align: top;
+			width: 70px;
+			padding: 5px;
+			height: 70px;
+		}
+		
+		a,
+		a:visited {
+			text-decoration: none;
+			color: #2B587A
+		}
+		
+		a:hover {
+			text-decoration: underline
+		}
+		
+		.att_head {
+			color: #777;
+		}
+		
+		.att_ico {
+			float: left;
+			width: 11px;
+			height: 11px;
+			margin: 3px 3px 2px;
+			background-image: url('http://vk.com/images/icons/mono_iconset.gif');
+		}
+		
+		.att_photo {
+			background-position: 0 -30px;
+		}
+		
+		.att_audio {
+			background-position: 0 -222px;
+		}
+		
+		.att_video {
+			background-position: 0 -75px;
+		}
+		
+		.att_doc {
+			background-position: 0 -280px;
+		}
+		
+		.att_wall,
+		.att_fwd {
+			background-position: 0 -194px;
+		}
+		
+		.att_gift {
+			background-position: 0 -105px;
+		}
+		
+		.att_sticker {
+			background-position: 0 -362px;
+			width: 12px;
+			height: 12px;
+		}
+		
+		.att_link {
+			background-position: 0 -237px;
+		}
+		
+		.attb_link a span {
+			color: #777777 !important;
+		}
+		
+		.att_geo {
+			background-position: 0 -165px;
+		}
+		
+		.fwd {
+			border: 2px solid #C3D1E0;
+			border-width: 0 0 0 2px;
+			margin-left: 85px;
+		}
